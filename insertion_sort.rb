@@ -28,4 +28,3 @@ test_unsorted = (0..100).to_a.shuffle
 sorter = InsertionSort.new
 puts sorter.sort(test_unsorted)
 puts sorter.sort(["d", "c", "a", "b"])
- # this is the actual one to turn in
